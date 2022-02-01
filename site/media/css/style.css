@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 body {
 	margin: 0;
 	padding:0;
-	background-color: #079992;
+	background-color: #ffffff;
 	font-family: 'Open Sans', sans-serif;
 }
 #site {
-	width: 95%;
 	margin: auto;
 	border: 1px solid #030;
 	display: grid;
@@ -18,25 +18,34 @@ body {
 }
 header {
 	grid-area: header;
-	background-color: #60a3bc;
-	color: #aaaaaa;
 	display: grid;
 	grid-template-columns: 20% 80%;
+}
+header a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 header img{
 	width: 125px;
 	height: auto;
 }
 header h1{
+	font-family: 'Lobster', cursive;
+	color: rgb(206, 151, 50);
 	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 nav {
 	grid-area: nav;
-	background-color: #82ccdd;
+	background-color: rgb(206, 151, 50);
 }
 ul {
 	margin: 0;
 	padding:0;	
+	text-align: center;
 }
 ul li {
 	list-style: none;
@@ -101,7 +110,7 @@ input[type='submit']:hover {
 }
 footer {
 	grid-area: footer;
-	background-color: #3c6382;
+	background-color: #ffffff;
 	text-align: center;
 }
 
